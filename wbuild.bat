@@ -1,0 +1,1 @@
+em++ -o index.html src/main.cpp src/App/App.cpp -std=c++17 -Os -Wall ./llib/libraylib.a -I. -I include/ -L. -L llib/ -s USE_GLFW=3 --shell-file shell.html -DPLATFORM_WEB
